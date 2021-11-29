@@ -7,8 +7,8 @@ class AppLogger
   end
 
   def call(env)
-    p self.class
-    #@logger.info(env)
+    # p self.class
+    @logger.info(env)
     @app.call(env)
   end
 end

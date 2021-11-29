@@ -1,6 +1,6 @@
 class App
   def call(env)
-    p self.class
+#    p self.class
     perform_request
     [status, header, body]
   end
