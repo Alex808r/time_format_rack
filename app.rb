@@ -28,7 +28,7 @@ class App
 
   private
 
-  def check_path(path)
+  def check_path?(path)
     path != PATH_TIME
   end
 
